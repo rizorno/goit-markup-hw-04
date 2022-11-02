@@ -197,8 +197,15 @@ body {
   display: flex;
 }
 
-.social.list .link {
-  display: block;
+.social.address .link {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.social.address .link:hover,
+.social.address .link:focus {
+  background-color: var(--hover-focus-button);
 }
 
 .lower .social.item:not(:last-child) {
