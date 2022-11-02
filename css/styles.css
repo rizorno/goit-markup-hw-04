@@ -172,8 +172,6 @@ body {
 
 .lower .container {
   display: flex;
-  align-items: center;
-  justify-items: center;
 }
 
 .lower .office.address {
@@ -191,10 +189,12 @@ body {
   margin-bottom: 20px;
 }
 
+.lower .social.address {
+  padding-top: 15px;
+}
+
 .lower .social.list {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .social.list .link {
@@ -405,7 +405,7 @@ body {
   justify-content: center;
 }
 
-.section.team .sociale-item:not(:last-child) {
+.section.team .social-item:not(:last-child) {
   margin-right: 10px;
 }
 
