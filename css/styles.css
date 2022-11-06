@@ -473,12 +473,8 @@ body {
   margin-bottom: 50px;
 }
 
-.filter.list > .item {
+.filter.list > .item:not(:last-child) {
   margin-right: 8px;
-}
-
-.filter.list > .item:last-of-type {
-  margin-right: 0;
 }
 
 .filter .push {
@@ -505,7 +501,6 @@ body {
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
 
 /* Портфоліо - Фото і текст */
@@ -518,6 +513,7 @@ body {
 
 .works.list > .item {
   flex-basis: calc((100% - 60px) / 3);
+  max-width: 370px;
 }
 
 .works.list > .item:hover {
@@ -528,7 +524,6 @@ body {
 .works-img {
   display: block;
   text-align: center;
-  box-sizing: border-box;
 
   margin: 0;
 }
