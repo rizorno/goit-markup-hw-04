@@ -511,12 +511,12 @@ body {
   gap: 30px;
 }
 
-.works.list > .item {
+.works.list .link {
   flex-basis: calc((100% - 60px) / 3);
   max-width: 370px;
 }
 
-.works.list > .item:hover {
+.works.list .link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
